@@ -8,7 +8,23 @@ class App {
 	//Add commit 1
 	//Add commit 2
 
-	//Add person def
-	//Addd getName()
+	Person person = new Person("Furkan");
+	System.out.println(person.getName());
+    }
+}
+
+
+class Person {
+
+    private String name;
+
+    public Person(String name) {
+
+	this.name = name;
+    }
+
+    public String getName() {
+
+	return this.name;
     }
 }
