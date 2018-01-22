@@ -6,7 +6,7 @@ class App {
 
 	System.out.println("Hello");
 	System.out.println("Commit1");
-	//Add commit 2
+	System.out.println("Commit2");
 
 	//Add person def
 	//Addd getName()
