@@ -10,6 +10,7 @@ class App {
 
 	Person person = new Person("Furkan");
 	System.out.println(person.getName());
+	System.out.println("deneme");
     }
 }
 
